@@ -1,0 +1,7 @@
+I0001 *** invalid insert ***  Tesla Motors        
+D0006 *** invalid delete ***
+U0017FCV  +valid update
+U0117 *** invalid update ***
+D0135 +valid delete
+I0205Model C +valid insert    Tesla Motors        
+I0230 *** invalid insert ***  Peugeot             

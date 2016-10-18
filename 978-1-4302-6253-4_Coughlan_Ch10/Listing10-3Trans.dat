@@ -1,0 +1,11 @@
+1113111Valid Insert @ start of file  1111004149
+3234567033333   Valid Price Update
+1266111Valid Insert @ middle of file 1111002379
+2334222         Invalid Delete
+1345678         Invalid Insert       0155002590
+3345678003333   Valid Update
+2567890         Valid Delete MicroLiteLEDTorch
+3578901001799   Invalid Update
+3789111003333   First update to 789111
+3789111009393   Second update to 789111
+1888111Valid Insert @ end of file    1111002969

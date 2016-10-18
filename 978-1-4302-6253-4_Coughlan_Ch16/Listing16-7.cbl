@@ -1,0 +1,36 @@
+IDENTIFICATION DIVISION.
+PROGRAM-ID. Listing16-7.
+AUTHOR.  Michael Coughlan.
+
+ENVIRONMENT DIVISION.
+FILE-CONTROL.
+    SELECT StudentFile ASSIGN TO "STUDENTS.DAT"
+    ORGANIZATION IS LINE SEQUENTIAL.
+
+DATA DIVISION.
+FILE SECTION.
+FD StudentFile.
+COPY StudentRec.
+
+WORKING-STORAGE SECTION.
+01 Idx      PIC 9(3).
+
+01 NameTable.
+COPY StudentNameTable IN EG-Lib
+     REPLACING XYZ BY 120.
+
+PROCEDURE DIVISION.
+BeginProg.
+   OPEN INPUT StudentFile
+   READ StudentFile
+      AT END SET EndOfSF TO TRUE
+   END-READ
+   PERFORM VARYING Idx FROM 1 BY 1 UNTIL EndOfSF
+      MOVE Surname TO StudSurname(Idx)
+      DISPLAY StudentNumber SPACE StudentName SPACE CourseCode 
+      READ StudentFile
+         AT END SET EndOfSF TO TRUE
+      END-READ
+   END-PERFORM
+   CLOSE StudentFile
+   STOP RUN.

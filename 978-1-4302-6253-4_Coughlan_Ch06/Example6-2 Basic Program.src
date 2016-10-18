@@ -1,0 +1,12 @@
+REM Demonstrates Open subroutines in Yabasic
+REM When the EXIT is removed, control falls
+REM through into OpenSub
+REM Author. Michael Coughlan
+PRINT "In main"
+GOSUB OpenSub
+PRINT "Back in main"
+EXIT
+
+LABEL OpenSub
+  PRINT "In OpenSub"
+  RETURN

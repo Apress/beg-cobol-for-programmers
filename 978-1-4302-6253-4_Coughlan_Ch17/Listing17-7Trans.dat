@@ -1,0 +1,8 @@
+D8805334   +++valid delete 
+D8844444   ---invalid delete
+I8833333Raiders of the Lost Ark - valid insert  005
+I8805111   invalid Insert no matching dir code  008
+I8805245   invalid Insert rec already exists    005
+U8805326Color Purple, The +++ valid update     
+U8811111   --- invalid update                  
+U8812438Untouchables, The +++ valid update      

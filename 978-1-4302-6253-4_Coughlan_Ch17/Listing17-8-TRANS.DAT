@@ -1,0 +1,19 @@
+D201401140006                                             
+I201402010124INSERT 1                 B.L.                
+I201402020126INSERT 2                 B.L.                
+D201402030510                                             
+I201402040133INSERT 3                 B.L.                
+I201402050223INSERT ERROR ON STOCK    ERROR               
+I201402060135INSERT 4                 B.L.                
+D201402070156DELETE ERROR             ERROR               
+D201402080106DELETE ERROR             ERROR               
+I201402090005INSERT ERR ON VEHICLE    ERROR               
+I201402110107INSERT 5 THEN DELETE     B.L.                
+D201402120018                                             
+I201402130007INSERT ERR ON VEHICLE    ERROR               
+D201402140107                                             
+I201402150018INSERT NEW VEHICLE 18    B.L.                
+D201402160009                                             
+I201402170011INSERT ERROR ON VEHICLE  ERROR               
+I201402180113INSERT 7                 B.L.                
+I201402190003INSERT ERR ON STOCK      ERROR               
